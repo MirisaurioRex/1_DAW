@@ -1,6 +1,6 @@
 
 /*
-  Azorín Vidal, Mirada
+  Azorín Vidal, Miranda
   Práctica Evaluable Tema 2
   Ejercicio 1 si
  */

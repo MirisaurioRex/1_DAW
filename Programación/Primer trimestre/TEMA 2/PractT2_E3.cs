@@ -1,8 +1,8 @@
 
 /*
-  Azorín Vidal, Mirada
+  Azorín Vidal, Miranda
   Práctica Evaluable Tema 2
-  Ejercicio 3
+  Ejercicio 3 si
  */
 
 using System;
