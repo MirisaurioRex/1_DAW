@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+</head>
+<body>
+    <form name="Ejercicio15" method="post" action="#">
+    <fieldset>
+        <legend>Pruebas de acceso a ciclos formativos FP</legend>
+        <p>
+            <label>Apellidos y nombre</label>
+            <input type="text" name="nombreCompleto" placeholder="Nombre y apellidos">
+        </p>
+        <p>
+            <label>NIF: </label>
+            <input type="text" name="NIF" placeholder="12345678A" required pattern="[0-9]{8}[A-Za-z]{1}">
+        </p>
+        <p>
+            <label>Teléfono de contacto: </label>
+            <input type="tel" name="telefono" placeholder="111 222 333">
+        </p>
+        <p>
+            <label>Dirrección: </label>
+            <input type="text" name="direccion" maxlength="150">
+        </p>
+        <p>
+            <label>Ciudad: </label>
+            <select name="origen">
+                <option value="Alicante">Alicante</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Castellon">Castellon</option>
+            </select>
+        </p>
+        <p>
+            <label>En la presente convocatoria actúa en calidad de: </label>
+            <input type="radio" name="convocatoria" value="Presidente">
+            <label>Presidente</label>
+            <input type="radio" name="convocatoria" value="Secretario">
+            <label>Secretario</label>
+            <input type="radio" name="convocatoria" value="Vocal">
+            <label>Vocal</label>
+        </p>
+        <p>
+            <label>Fecha: </label>
+            <input type="date" name="fecha">
+        </p>
+        <p>
+            <input type="submit" name="enviar">
+            <input type="reset" name="reset">
+        </p>
+
+    </fieldset>
+    </form>
+</body>
+</html>

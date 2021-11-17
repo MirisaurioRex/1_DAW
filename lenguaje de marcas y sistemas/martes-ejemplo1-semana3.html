@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="64x64" href="favicont29_new.ico">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- El atributo enctype es porque hay un input file -->
+    <form name="ejemplo" method="post" action="#" enctype="multipart/form-data">
+        <input type="text" autofocus size="4" placeholder="Introduce nombre"><br>
+        <input type="password" placeholder="Introduce tu contraseña"><br>
+        <input type="tel" placeholder="666777888"><br>
+        <input type="url" placeholder="https://"><br>
+        <input type="email" placeholder="user@dominio.com"><br>
+        <textarea>Texto largo</textarea><br>
+        <input type="number" min="18" max="40" step="5"><br>
+        <input type="range"><br>
+        <input type="date"><br>
+        <input type="datetime-local"><br>
+        <input type="radio" name="sexo">Hombre
+        <input type="radio" name="sexo" checked>Mujer<br>
+        <input type="checkbox">SMR
+        <input type="checkbox" checked>ASIR
+        <input type="checkbox" checked>DAM<br>
+        <select>
+            <option>De qué pais eres</option>
+            <option>España</option>
+            <option>Otro</option>
+        </select><br>
+        <select multiple>
+            <option>Qué SO usas?</option>
+            <option>Windows</option>
+            <option>Linux</option>
+            <option>MacOS</option>
+            <option>Unix</option>
+        </select><br>
+        <select multiple>
+            <option>Qué Windows tienes</option>
+            <option>Windows XP</option>
+            <option>Windows 7</option>
+            <option>Windows 8</option>
+            <option>Windows 10</option>
+            <option>Windows 11</option>
+        </select><br>
+        <input type="color" value="#FF0000"><br>
+        <input list="browsers" name="myBrowser"><br>
+        <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="IE"></option>
+            <option value="Opera"></option>
+        </datalist><br>
+        <input type="file">
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <!-- Desde compartir vídeo en youtube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CM_A4f9qqzo" title="YouTube video player"></iframe><br>
+
+    <!-- Desde copiar mapa en google maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12506.093962966048!2d-0.5318828639471987!3d38.40626542438854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6233fea3991575%3A0xf28fcef8c48c1513!2sIES%20San%20Vicente!5e0!3m2!1ses!2ses!4v1635452091546!5m2!1ses!2ses"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+
+    <object type="application/pdf" data="Tema 2.pdf" width="600" height="450"></object><br>
+    <a title="Enlace a vídeo de youtube" href="https://www.youtube.com/embed/CM_A4f9qqzo">Esto es solo un enlace</a>
+</body>
+
+</html>

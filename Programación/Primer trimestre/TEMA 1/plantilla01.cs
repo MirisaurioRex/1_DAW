@@ -1,21 +1,21 @@
-
-/*(2.2.1.1.4) Crea una versión mejorada del programa anterior, que, tras introducir 
-cada par de números, responderá si el primero es múltiplo del segundo, o el 
-segundo es múltiplo del primero, o ninguno de ellos es múltiplo del otro.*/
+/*  (3.3.1.1) Crea un programa que pida una letra al usuario y diga si se trata de una 
+vocal.   */
 
 using System;
 
-public class Ejercicio_2_2_1_1_4
+public class Ejercicio_3_3_1_1
 {
 	public static void Main()
 	{
-		int n1;
-		int n2;
+		char letra;
 		
-		Console.WriteLine("Introduce el primer número");
-		n1 = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Escribe una letra");
+		letra = Convert.ToChar(Console.ReadLine());
 		
-		Console.WriteLine("Introduce el segundo número");
-		n2 = Convert.ToInt32(Console.ReadLine());
+		if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
+			Console.WriteLine("La letra es una vocal");
+		else
+			Console.WriteLine("La letra no es una vocal");
+		
 	}
 }

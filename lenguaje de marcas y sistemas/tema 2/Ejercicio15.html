@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+</head>
+<body>
+    <form name="Ejercicio15" method="post" action="#">
+    <p>
+        <label>Introduce tu nombre</label>
+        <input type="text" name="nombre" placeholder="Introduce tu nombre">
+    </p>
+    <p> 
+        <label>Introduce tu e-mail</label>
+        <input type="email" name="correo" placeholder="correo@gmail.com">
+    </p>
+    <p>
+        <label>Introduce una contraseña</label>
+        <input type="password" name="contraseña" placeholder="contraseña">
+    </p>
+    <p>
+        <label>Indica su edad</label>
+        <input type="number" name="edad" min="18" max="40">
+    </p>
+    <p>
+        <label>Selecciona qué estudias: </label>
+        <input type="radio" name="estudios" value="DAW">
+        <label>DAW</label>
+        <input type="radio" name="estudios" value="DAM">
+        <label>DAM</label>
+    </p>
+    <p>
+        <label>¿Qué estudios previos tienes? </label>
+        <input type="checkbox" name="ESO">
+        <label>ESO</label>
+        <input type="checkbox" name="Bachiller">
+        <label>Bachiller</label>
+        <input type="checkbox" name="SMR">
+        <label>SMR</label>
+        <input type="checkbox" name="ASIR">
+        <label>ASIR</label>
+    </p>
+    <p>
+        <label>Imagen de perfil: </label>
+        <input type="file" name="imagenPerfil" accept=".jpg,.png,.pdf">
+    </p>
+    <p>
+        <input type="submit" name="enviar">
+    </p>
+    </form>
+</body>
+</html>
