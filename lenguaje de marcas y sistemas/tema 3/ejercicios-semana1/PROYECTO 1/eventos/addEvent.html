@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/stylesaddEvent.css">
+    <link rel="icon" href="../img/64x64.png" type="image/x-icon">
+    <title>Añadir evento</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Eventos Jurásicos</h1>
+        <nav>
+            <ul class="navegador">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../eventos/addEvent.html">Añadir eventos</a></li>
+                <li><a href="./events.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="principal">
+        <form id="formulario" name="Buscador" method="post" action="#">
+                <h2>Nuevo evento</h2>
+                <p id="input1">
+                    <label>Título del evento: </label>
+                    <input type="text" name="tituloEvento" placeholder="Título del evento" maxlength="200">
+                </p>
+                <p id="2">
+                    <label>Categoría: </label>
+                    <select name="categoria">
+                        <option value="Conciertos">Conciertos</option>
+                        <option value="Fiestas">Fiestas</option>
+                        <option value="Teatro">Teatro</option>
+                        <option value="Deportes">Deportes</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                </p>
+                <p id="3">
+                    <label>Fecha: </label>
+                    <input type="date" name="fecha" min="2021-12-06">
+                </p>
+                <p id="4">
+                    <label>Precio (€): </label>
+                    <input type="number" name="precio" placeholder="Precio del evento" min="10" max="500">
+                </p>
+                <p id="5">
+                    <label>Descripción: </label>
+                    <textarea></textarea>
+                </p>
+                <p id="6">
+                    <label>Imagen: </label>
+                    <input type="file" name="imagenPerfil" accept=".jpg,.png,.jpeg">
+                </p>
+                <p class="ancho">
+                    <input type="submit" name="enviar">
+                    <input type="reset" name="reset">
+                </p>
+        </form>
+    </main>
+
+    <footer>
+        <address>Contacta con nosotros: <a href="mailto:mirandaazorin@gmail.com">Miranda Azorín Vidal</a> -
+             <a href="tel:+34456123789">456 123 789</a></address>
+    </footer>
+</body>
+</html>

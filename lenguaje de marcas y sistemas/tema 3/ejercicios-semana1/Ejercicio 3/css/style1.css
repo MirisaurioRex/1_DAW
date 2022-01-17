@@ -1,0 +1,44 @@
+body {
+    background-color: aliceblue;
+}
+body {
+    background-image: url(../img/fantasma.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right;
+}
+h1 {
+    color:red;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+p {
+    font-family: 'Passions Conflict', curisve;
+    font-size: 30px;
+    text-indent: 30px;
+    line-height: 110%;
+    text-align: justify;
+}
+.especial {
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #000000;
+}
+.segundo {
+    text-shadow: 5px 5px 5px #000000;
+    text-transform: capitalize;
+}
+#parrafo1, #parrafo3, #parrafo5 {
+    color: #cecece;
+}
+#parrafo6, #parrafo8 {
+    color: rgb(95, 37, 37)
+}
+#parrafo2, #parrafo9 {
+    text-align: right;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}

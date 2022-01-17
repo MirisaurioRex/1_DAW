@@ -1,0 +1,16 @@
+.rojo{
+    color: red;
+}
+.mayus {
+    font-variant: small-caps;
+}
+.cap {
+    text-transform: capitalize;
+}
+.undersep {
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+p {
+    text-align: right;
+}

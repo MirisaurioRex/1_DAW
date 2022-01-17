@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Ejercicio3.css">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <form name="formulario" method="post" action="#">
+        <section class="obligatorio">
+            <label>Nombre y apellidos: </label>
+            <input type="text" name="nombreApellidos" placeholder="Introduce tu nombre y apellidos" required pattern="[A-Za-z]">
+        </section>
+        <section class="obligatorio">
+            <label>Teléfono</label>
+        <input type="tel" name="telefono" placeholder="Introduce tu teléfono" required pattern="[0-9]{9}">
+        </section>
+        <section class="obligatorio">
+            <label>Correo electrónico: </label>
+            <input type="email" name="emal" placeholder="Introduce tu email" required autofocus>
+        </section>
+        <section>
+            <label>Edad: </label>
+        <input type="number" name="edad" min="16" max="70">
+        </section>
+        <section>
+            <label>Sexo: </label>
+        <input type="radio" name="sexo" value="hombre">
+        <label>Hombre</label>
+        <input type="radio" name="sexo" value="mujer">
+        <label>Mujer</label>
+        </section>
+        <section>
+            <label>Descripción: </label>
+        <textarea name="descripcion"></textarea>
+        </section>
+        <section class="obligatorio">
+            <label>Fecha de nacimiento: </label>
+            <input type="date" name="fechaNacimiento" required>
+        </section>
+        <section><label>Estudios previos: </label>
+            <select name="sistema" >
+                <option value="Ninguno">Ninguno</option>
+                <option value="Eso">Eso</option>
+                <option value="Bachiller">Bachiller</option>
+                <option value="Ciclo Medio">Ciclo Medio</option>
+                <option value="Ciclo Superior">Ciclo Superior</option>
+                <option value="Estudios universitarios">Estudios universitarios</option>
+            </select>
+        </section>
+        <section>
+            <label>Ciclo actual: </label>
+        <input type="checkbox" name="cicloActual" value="DAM">
+        <label>DAM</label>
+        <input type="checkbox" name="cicloActual2" value="DAW">
+        <label>DAW</label>
+        </section>
+        <section>
+            <input type="file" name="fotoPerfil" accept=".jpg, .jpeg, .png" multiple>
+        </section>
+        <section class="obligatorio">
+            <input type="checkbox" name="condiciones" checked required>
+            <label>Acepto las condiciones</label>
+        </section>
+        <section>
+            <input type="reset">
+            <input type="submit" class="enviar">
+        </section>
+    </form>
+</body>
+</html>

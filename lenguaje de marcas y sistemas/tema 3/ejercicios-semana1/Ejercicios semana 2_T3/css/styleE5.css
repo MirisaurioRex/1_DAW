@@ -1,0 +1,28 @@
+#table {
+    width: 800px;
+    border-width:thick;
+    border-color: red;
+}
+.tr {
+    border-color: red;
+    width: 50%;
+    height: 50%;
+}
+.td1 {
+    
+    padding: 25px;
+}
+.td2 {
+    
+    padding: 20px;
+    padding-left: 40px;
+}
+.td3 {
+    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.td4 {
+    
+    padding-top: 50px;
+}

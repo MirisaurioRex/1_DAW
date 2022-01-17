@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        flex-flow: column wrap;
+        gap: 10px;
+        background-color: peachpuff;
+        border-style: hidden;
+        border-width: 1px;
+        border-radius: 5%;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,36 @@
+#pagina {
+    width: 900px;
+    margin: auto; 
+   }
+   #cabecera {
+    
+    background-color: red;
+    
+   }
+   #contenedor {
+    
+    background-color: #FFF7A2;
+    
+   }
+   #parteiz {
+    float: left;
+    background-color: blue;
+    
+   }
+   #parteder {
+    background-color: coral;
+   }
+   .menu {
+       
+    background-color: #B1FFEC;
+    
+   }
+   .contenido {
+    
+    background-color: #BDC9FF;
+    
+   }
+   .footer {
+       background-color: darkgreen;
+   }
+   

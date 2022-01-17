@@ -1,0 +1,6 @@
+5: 	git add The hare and the turtle.txt
+	git commit -m "Commit for step 5"
+6: 	git add new 2.txt
+	git commit -m "Commit for step 6"
+
+	git push

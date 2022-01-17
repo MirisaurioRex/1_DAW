@@ -1,0 +1,13 @@
+.table {
+    width: 500px;
+    table-layout: fixed;
+    border-collapse: separate;
+}
+.td1 {
+    width: 20%;
+}
+td {
+    border-style: dotted;
+    border-color: red;
+    border-style: 2px;
+}

@@ -1,0 +1,15 @@
+#p1 {
+    border-color:  brown;
+    border-width: normal;
+    border-style: ridge;
+    color: aqua;
+    background-color: yellow;
+}
+#p2 {
+    border-color:  green blue red brown;
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-bottom-style: double;
+    border-right-style: dashed;
+    border-width: 5px 3px;
+}

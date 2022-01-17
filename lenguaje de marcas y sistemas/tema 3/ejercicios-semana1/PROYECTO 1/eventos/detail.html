@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/stylesDetails.css">
+    <link rel="icon" href="../img/64x64.png" type="image/x-icon">
+    <title>Detalle</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Eventos Jurásicos</h1>
+        <nav>
+            <ul class="navegador">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./addEvent.html">Añadir eventos</a></li>
+                <li><a href="./events.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="principal">
+        <form name="Buscador" method="post" action="./events.html">
+            <p id="buscar">
+            <input type="search" name="buscador" placeholder="Busca un evento">
+            <input type="submit" name="Buscar" value="Buscar">
+            </p>
+        </form>
+            <h2 class="tituloEvento">Detalle del evento</h2>
+        <section class="contenedor">
+            <section class="fotoEvento1">
+                <img src="../img/carreraGrande.jpg" alt="carrera">
+                    <ul class="caracteristicasEvento">
+                        <li><span>Fecha: </span> 12/01/2022</li>
+                        <li><span>Precio: </span> 2€</li>
+                        <li><span>Categoría: </span> Deportes</li>
+                    </ul>
+            </section>
+            <section class="evento1">
+                <h3>Carrera de dinosaurios</h3>
+                <p>
+                    <span>Descripción:</span>
+                    Una carrera donde los participantes se visten de dinosaurios hinchables y hacen un recorrido con diferentes
+                    obstáculos. Al finalizar la carrera se les otorgará a los primeros tres clasificados un disfraz hinchable
+                    de dinosaurio a elegir como premio.
+                </p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <address>Contacta con nosotros: <a href="mailto:mirandaazorin@gmail.com">Miranda Azorín Vidal</a> -
+             <a href="tel:+34456123789">456 123 789</a></address>
+    </footer>
+</body>
+</html>

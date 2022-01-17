@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#section1, #section4 {
+    background-color: lightseagreen;
+    border-style: hidden;
+    border-width: 1px;
+    border-radius: 5%;
+    padding: 5px;
+    min-width: 200px;
+    flex: 1;
+}
+#section2, #section3 {
+    background-color: peachpuff;
+    border-style: hidden;
+    border-width: 1px;
+    border-radius: 5%;
+    padding: 5px;
+    min-width: 300px;
+    flex: 2; 
+}
+                                                                                                                

@@ -1,0 +1,33 @@
+.div0 {
+    border-style: dashed;
+    border-color: blue;
+    width: 500px;
+    height: 500PX;
+    background-color: rgb(170, 99, 111);
+}
+.div1 {
+    border-style: dashed;
+    border-color: blue;
+    width: 200px;
+    height: 100px;
+    background-color: palegoldenrod;  
+}
+.div2 {
+    border-style: dashed;
+    border-color: blue;
+    width: 200px;
+    height: 100px;;
+    background-color: salmon;
+    position: relative;
+    top: 49px; left: 200px;
+    overflow: scroll;
+    z-index: auto;
+}
+.div3 {
+    border-style: dashed;
+    border-color: blue;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    
+}

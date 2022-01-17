@@ -1,0 +1,14 @@
+p.p1 {
+    border-color: red;
+    min-width: 150px;
+    max-width: 300px;
+    min-height: 60px;
+    max-height: 100px;
+}
+p.p2 {
+    border-color: black;
+    min-width: 150px;
+    max-width: 300px;
+    min-height: 60px;
+    max-height: 100px;
+}

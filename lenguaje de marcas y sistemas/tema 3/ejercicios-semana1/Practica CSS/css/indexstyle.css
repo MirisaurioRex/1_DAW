@@ -1,0 +1,89 @@
+body {
+    font-family: 'Play', sans-serif;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:  auto auto auto auto;
+}
+header {
+    background-color: brown;
+}
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: burlywood;
+    text-shadow: 5px 5px 5px black;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 10px;
+    
+   }
+nav ul li {
+    margin-right: 35px;
+    color: white;
+    display: inline;
+    padding: 15px;
+   }
+#principal {
+    
+    height: 450px;
+    padding: 5px;
+    overflow: auto;
+}
+h2 {
+    text-align: center ;
+}
+#federacion {
+    float: left;
+    background-color: tomato;
+    width: 1000px;
+    height: 390px;
+    text-align: left;
+    clear: left;
+    padding: 15px;
+    border-style: hidden;
+    border-color: black;
+    border-width: 1px;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+#calendario {
+    width: 500px;
+    height: 390px;
+    background-color: violet;
+    float: right;
+    padding: 15px;
+    border-style: hidden;
+    border-color: black;
+    border-width: 1px;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin-right: 310px;
+}
+aside {
+    position: absolute;
+    left: 1625px;
+    top: 150px;
+    width: 255px;
+    height: 390px;
+    padding: 15px;
+    background-color: yellowgreen;
+    border-style: hidden;
+    border-color: black;
+    border-width: 1px;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+    
+}
+footer{
+    background-color: brown;
+    text-align: center;
+    padding-top: 10px;
+}

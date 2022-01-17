@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/64x64.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/stylesindex.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Eventos Jurásicos</h1>
+        <nav>
+            <ul class="navegador">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./eventos/addEvent.html">Añadir eventos</a></li>
+                <li><a href="./eventos/events.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="principal">
+        <form name="Buscador" method="post" action="./eventos/events.html">
+            <p id="buscar">
+            <input type="search" name="buscador" placeholder="Busca un evento">
+            <input type="submit" name="Buscar" value="Buscar">
+            </p>
+        </form>
+            <h2 class="tituloEvento">Eventos de la semana</h2>
+        <section class="contenedor">
+            <section class="fotoEvento1">
+                <a href="./eventos/detail.html"><img src="./img/carrera200.jpg" alt="carrera"></a>
+            </section>
+            <section class="evento1">
+                <h3>Carrera de dinosaurios</h3>
+                <p>
+                    Una carrera donde los participantes se visten de dinosaurios hinchables y hacen un recorrido con
+                    obstáculos.
+                </p>
+            </section>
+            <section class="fotoEvento2">
+                <a href="./eventos/detail.html"><img src="./img/paleontologo200.jpg" alt="paleontología"></a>
+            </section>
+            <section class="evento2">
+                <h3>Desenterrando el pasado</h3>
+                <p>Únete al campamento de paleontología de un día y siéntete como un auténtico paleontólogo.</p>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <address>Contacta con nosotros: <a href="mailto:mirandaazorin@gmail.com">Miranda Azorín Vidal</a> -
+             <a href="tel:+34456123789">456 123 789</a></address>
+    </footer>
+</body>
+</html>

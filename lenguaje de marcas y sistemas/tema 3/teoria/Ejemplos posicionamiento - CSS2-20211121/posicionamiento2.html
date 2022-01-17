@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamiento 2</title>
+    <style>
+        span {
+            /* Estilo común */
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            color: white;
+            width: 120px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        div {
+            /* Para alinear los div y que no esté uno debajo del otro*/
+            display: inline-block;
+        }
+        
+        #span1 {
+            background-color: green;
+        }
+        
+        #span2 {
+            background-color: red;
+            top: 25px;
+        }
+        
+        #span3 {
+            background-color: blue;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div><span id="span1">Elemento 1</span></div>
+    <div><span id="span2">Elemento 2</span></div>
+    <div><span id="span3">Elemento 3</span></div>
+</body>
+
+</html>
