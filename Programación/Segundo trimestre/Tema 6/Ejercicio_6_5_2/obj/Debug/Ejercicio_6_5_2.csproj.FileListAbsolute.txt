@@ -1,0 +1,7 @@
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Ejercicio_6_5_2\bin\Debug\Ejercicio_6_5_2.exe.config
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Ejercicio_6_5_2\bin\Debug\Ejercicio_6_5_2.exe
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Ejercicio_6_5_2\bin\Debug\Ejercicio_6_5_2.pdb
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Ejercicio_6_5_2\obj\Debug\Ejercicio_6_5_2.csproj.SuggestedBindingRedirects.cache
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Ejercicio_6_5_2\obj\Debug\Ejercicio_6_5_2.csproj.CoreCompileInputs.cache
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Ejercicio_6_5_2\obj\Debug\Ejercicio_6_5_2.exe
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Ejercicio_6_5_2\obj\Debug\Ejercicio_6_5_2.pdb

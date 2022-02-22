@@ -1,14 +1,14 @@
-/*  */
+/**/
 
 using System;
 
-public class Ejercicio
+public class 
 {
-	
-	
 	
 	public static void Main()
 	{
+		
+		}
 		
 	} // fin del Main
 }

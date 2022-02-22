@@ -1,0 +1,8 @@
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\bin\Debug\Semana15.exe.config
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\bin\Debug\Semana15.exe
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\bin\Debug\Semana15.pdb
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\obj\Debug\Semana15.csproj.AssemblyReference.cache
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\obj\Debug\Semana15.csproj.SuggestedBindingRedirects.cache
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\obj\Debug\Semana15.csproj.CoreCompileInputs.cache
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\obj\Debug\Semana15.exe
+F:\Users\Miri-chan\Pictures\FP\1_DAW\Programación\Segundo trimestre\Tema 6\Semana15\obj\Debug\Semana15.pdb

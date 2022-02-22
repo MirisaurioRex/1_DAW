@@ -260,7 +260,6 @@ public class TiendaMuebles
 					//ordenar productos por ubicación 
 					//ordenado por pasillo
 					for(int i=0; i < productosEnLista-1; i++) {
-						
 						 for(int j=i+1; j < productosEnLista; j++) {
 								 if (listaCompra[i].ubicacionProducto.pasillo > listaCompra[j].ubicacionProducto.pasillo) {
 									 

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, "Free Sans";
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+.mvl img {
+    width: 100px;
+    height: 200px;
+}
+
+#productos {
+    display: flex;
+}
+
+section article {
+    flex: 1;
+}
+
+button {
+    border-radius: 5px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}
+thead tr{
+    background-color: cadetblue;
+    color: white;
+}
+table {
+    border-radius: 10px;
+    width: 750px;
+}
+
+table img {
+    max-height: 50px;
+}
+#total{
+    text-align: right;
+}
